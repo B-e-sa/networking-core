@@ -10,7 +10,7 @@ typedef enum ConnectionType
 
 typedef struct NetworkDevice
 {
-	ConnectionType;
+	ConnectionType connectionType;
 	uint8_t mac[6]
 	uint8_t ipv4[4]
 	uint8_t ipv6[16]
